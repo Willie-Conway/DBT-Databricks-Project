@@ -1,0 +1,1 @@
+Using profiles.yml file at C:\Users\hirew\.dbt\profile

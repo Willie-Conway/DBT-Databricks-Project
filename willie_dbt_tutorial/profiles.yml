@@ -1,0 +1,11 @@
+willie_dbt_tutorial:
+  outputs:
+    dev:
+      catalog: dbt_tutorial_dev
+      host: dbc-454d3e7f-0c64.cloud.databricks.com
+      http_path: /sql/1.0/warehouses/7ba1bf90c9ff3dd0
+      schema: default
+      threads: 1
+      token: dapi0c2a627fffa0f9b103a97a270b1c18f2
+      type: databricks
+  target: dev
