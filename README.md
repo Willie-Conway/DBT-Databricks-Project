@@ -6,7 +6,7 @@
 
 <p float="left">
     <img src="https://raw.githubusercontent.com/Willie-Conway/DBT-Databricks-Project/refs/heads/main/Screenshots/logos-card-databricks.png?token=GHSAT0AAAAAADRSACXHDNC3JLLXFVSLCRMG2KSDTZA" width="300" />
-    <img src="https://raw.githubusercontent.com/Willie-Conway/DBT-Databricks-Project/refs/heads/main/Screenshots/dbt-core.png?token=GHSAT0AAAAAADRSACXG7WQF2QWTU6BLS6O42KSDUUQ" width="300" />
+    <img src="https://raw.githubusercontent.com/Willie-Conway/DBT-Databricks-Project/refs/heads/main/Screenshots/dbt-core.jpg?token=GHSAT0AAAAAADRSACXG7MMMGDJTB3N566LO2KSD4KA" width="300" />
 </p>
 
 ---
