@@ -5,8 +5,8 @@
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
 <p float="left">
-    <img src="https://raw.githubusercontent.com/Willie-Conway/DBT-Databricks-Project/refs/heads/main/Screenshots/logos-card-databricks.png?token=GHSAT0AAAAAADRSACXHDNC3JLLXFVSLCRMG2KSDTZA" width="300" />
-    <img src="https://raw.githubusercontent.com/Willie-Conway/DBT-Databricks-Project/refs/heads/main/Screenshots/dbt-core.jpg?token=GHSAT0AAAAAADRSACXG7MMMGDJTB3N566LO2KSD4KA" width="300" />
+    <img src="https://github.com/Willie-Conway/DBT-Databricks-Project/blob/70952b8a26458ac0ded4985f877909b6ea6de9bb/Screenshots/logos-card-databricks.png" width="300" />
+    <img src="https://github.com/Willie-Conway/DBT-Databricks-Project/blob/0d00170b37115678efc6363548728f6bccfb8c1f/Screenshots/dbt-core.jpg" width="300" />
 </p>
 
 ---
