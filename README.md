@@ -4,6 +4,11 @@
 [![YouTube](https://img.shields.io/badge/YouTube-Video-red?logo=youtube)](https://youtube.com/playlist?list=PLmPJQXJMMTKygtg7qy7Waj1N2o--H7XG3)  
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)  
 
+<p float="left">
+    <img src="https://raw.githubusercontent.com/Willie-Conway/DBT-Databricks-Project/refs/heads/main/Screenshots/logos-card-databricks.png?token=GHSAT0AAAAAADRSACXHDNC3JLLXFVSLCRMG2KSDTZA" width="300" />
+    <img src="https://raw.githubusercontent.com/Willie-Conway/DBT-Databricks-Project/refs/heads/main/Screenshots/dbt-core.png?token=GHSAT0AAAAAADRSACXG7WQF2QWTU6BLS6O42KSDUUQ" width="300" />
+</p>
+
 ---
 
 ## 📖 Overview  
