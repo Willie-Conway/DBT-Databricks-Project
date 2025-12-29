@@ -1,0 +1,74 @@
+(.venv)
+hirew@Willie-PC MINGW64 ~/DBT-Databricks-Project/willie_dbt_tutorial (main)
+$ dbt build --target prod
+05:35:09  Running with dbt=1.11.0-rc3
+WARNING:thrift.transport.sslcompat:using legacy validation callback
+05:35:12  [WARNING][MissingPlusPrefixDeprecation]: Deprecated functionality
+Missing '+' prefix on `schema` found at `willie_dbt_tutorial.silver.schema` in
+file
+`C:\Users\hirew\DBT-Databricks-Project\willie_dbt_tutorial\dbt_project.yml`.
+Hierarchical config values without a '+' prefix are deprecated in
+dbt_project.yml.
+05:35:12  Registered adapter: databricks=1.11.3
+05:35:13  [WARNING]: Use managed Iceberg tables when table_format is iceberg. When this flag is disabled, UniForm is used instead.
+You may opt into the new behavior sooner by setting `flags.use_managed_iceberg` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+05:35:13  Unable to do partial parsing because config vars, config profile, or config target have changed
+05:35:13  Unable to do partial parsing because profile has changed
+05:35:16  Found 8 models, 6 analyses, 7 data tests, 1 seed, 1 snapshot, 7 sources, 718 macros
+05:35:16  
+05:35:16  Concurrency: 1 threads (target='prod')
+05:35:16  
+05:35:20  1 of 17 START sql table model bronze.bronze_customer ........................... [RUN]
+05:35:20  [WARNING]: Use revamped materializations based on separating create and insert.  This allows more performant column comments, as well as new column features.
+You may opt into the new behavior sooner by setting `flags.use_materialization_v2` to `True` in `dbt_project.yml`.
+Visit https://docs.getdbt.com/reference/global-configs/behavior-changes for more information.
+05:35:23  1 of 17 OK created sql table model bronze.bronze_customer ...................... [OK in 3.03s]
+05:35:23  2 of 17 START sql view model bronze.bronze_date ................................ [RUN]
+05:35:24  2 of 17 OK created sql view model bronze.bronze_date ........................... [OK in 1.06s]
+05:35:24  3 of 17 START sql view model bronze.bronze_product ............................. [RUN]
+05:35:25  3 of 17 OK created sql view model bronze.bronze_product ........................ [OK in 1.01s]
+05:35:25  4 of 17 START sql table model bronze.bronze_returns ............................ [RUN]
+05:35:28  4 of 17 OK created sql table model bronze.bronze_returns ....................... [OK in 2.53s]
+05:35:28  5 of 17 START sql view model bronze.bronze_sales ............................... [RUN]
+05:35:29  5 of 17 OK created sql view model bronze.bronze_sales .......................... [OK in 1.01s]
+05:35:29  6 of 17 START sql table model bronze.bronze_store .............................. [RUN]
+05:35:32  6 of 17 OK created sql table model bronze.bronze_store ......................... [OK in 3.29s]
+05:35:32  7 of 17 START sql table model gold.source_gold_items ........................... [RUN]
+05:35:35  7 of 17 OK created sql table model gold.source_gold_items ...................... [OK in 2.54s]
+05:35:35  8 of 17 START seed file bronze.lookup .......................................... [RUN]
+05:35:38  8 of 17 OK loaded seed file bronze.lookup ...................................... [INSERT 3 in 3.18s]
+05:35:38  9 of 17 START test generic_non_negative_bronze_sales_gross_amount .............. [RUN]
+05:35:39  9 of 17 PASS generic_non_negative_bronze_sales_gross_amount .................... [PASS in 0.63s]
+05:35:39  10 of 17 START test non_negative_test .......................................... [RUN]
+05:35:39  10 of 17 PASS non_negative_test ................................................ [PASS in 0.69s]
+05:35:39  11 of 17 START test not_null_bronze_sales_sales_id ............................. [RUN]
+05:35:40  11 of 17 PASS not_null_bronze_sales_sales_id ................................... [PASS in 0.57s]
+05:35:40  12 of 17 START test unique_bronze_sales_sales_id ............................... [RUN]
+05:35:41  12 of 17 PASS unique_bronze_sales_sales_id ..................................... [PASS in 0.59s]
+05:35:41  13 of 17 START test accepted_values_bronze_store_country__USA__Canada__Mexico .. [RUN]
+05:35:42  13 of 17 PASS accepted_values_bronze_store_country__USA__Canada__Mexico ........ [PASS in 1.03s]
+05:35:42  14 of 17 START test not_null_bronze_store_store_sk ............................. [RUN]
+05:35:42  14 of 17 PASS not_null_bronze_store_store_sk ................................... [PASS in 0.86s]
+05:35:42  15 of 17 START test unique_bronze_store_store_sk ............................... [RUN]
+05:35:43  15 of 17 PASS unique_bronze_store_store_sk ..................................... [PASS in 0.96s]
+05:35:43  16 of 17 START snapshot gold.gold_items ........................................ [RUN]
+05:35:50  16 of 17 OK snapshotted gold.gold_items ........................................ [OK in 6.71s]
+05:35:50  17 of 17 START sql table model silver.silver_salesinfo ......................... [RUN]
+05:35:54  17 of 17 OK created sql table model silver.silver_salesinfo .................... [OK in 3.40s]
+05:35:54  
+05:35:54  Finished running 1 seed, 1 snapshot, 5 table models, 7 data tests, 3 view models in 0 hours 0 minutes and 37.99 seconds (37.99s).
+05:35:54  
+05:35:54  Completed successfully
+05:35:54
+05:35:54  Done. PASS=17 WARN=0 ERROR=0 SKIP=0 NO-OP=0 TOTAL=17
+05:35:54  [WARNING][DeprecationsSummary]: Deprecated functionality
+Summary of encountered deprecations:
+- MissingPlusPrefixDeprecation: 3 occurrences
+To see all deprecation instances instead of just the first occurrence of each,
+run command again with the `--show-all-deprecations` flag. You may also need to
+run with `--no-partial-parse` as some deprecations are only encountered during
+parsing.
+(.venv) 
+hirew@Willie-PC MINGW64 ~/DBT-Databricks-Project/willie_dbt_tutorial (main)
+$

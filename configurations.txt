@@ -1,0 +1,9 @@
+dbt configurations are defined in 3 areas (dbt-project, properties and block).
+
+dbt project < properties < block
+
+(you can cofigure the schema in any of the mention sections)
+(schemas should remain the same for all models in each layer)
+(node selection in dbt )
+(macro means functions)
+(create functions in the jinja so you can re-use the logic)
