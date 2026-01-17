@@ -27,6 +27,7 @@ This comprehensive **DBT (Data Build Tool) project** implements a complete data 
 [![YouTube Tutorial](https://img.shields.io/badge/▶️_Watch_Full_Tutorial-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/playlist?list=PLmPJQXJMMTKygtg7qy7Waj1N2o--H7XG3) 
 [![Databricks](https://img.shields.io/badge/📊_Databricks_Unity_Catalog-FF3621?style=for-the-badge&logo=databricks&logoColor=white)](https://community.cloud.databricks.com/)
 ![Production Ready](https://img.shields.io/badge/Production_Ready-10B981?style=for-the-badge&logo=databricks&logoColor=white)
+![cloud-overview (1)](https://github.com/user-attachments/assets/b1213c7e-11bc-4a02-8b59-ce831df3cf15)
 
 ## 📁 Project Architecture
 
